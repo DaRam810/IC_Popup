@@ -20,7 +20,7 @@ body {
     top: 50%;
     border-radius: 2px;
     font-family: "Poppins", sans-serif;
-    display: none;
+    display: blocked;
     text-align: center;
     opacity: 1;
     animation-name: fadeInOpacity;
