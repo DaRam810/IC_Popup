@@ -9,3 +9,4 @@ function closePopup() {
 if (popupShown === null || popupShown === "false") {
   popup.style.display = "block";
 }
+
