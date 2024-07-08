@@ -24,6 +24,7 @@
       background-image: url('background-image.jpg');
       /* Add a background image */
       background-size: cover;
+      width: 450px;
     }
 
     .close-btn {
@@ -43,16 +44,13 @@
 
   <!-- Our promotional pop-up -->
   <div class="popup">
-    <span class="close-btn">&times;</span>
-    <h2>Get 20% off your first purchase!</h2>
-    <p>Use code WELCOME20 at checkout.</p>
-    <button id="close-popup">Close</button>
+    <span class="close-btn" id="close-popup">&times;</span>
     <!-- MAILCHIMP SIGNUP FORM-->
     <div class="form-style-85" id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
       <style type="text/css">
         #mc_embed_signup {
-          background: #fff100;
+          background: #fff;
           clear: left;
           font: 14px Helvetica, Arial, sans-serif;
           width: 100%;
@@ -149,7 +147,17 @@
 
     // Show the pop-up every 2 minutes
     setInterval(showPopup, 120000);
+
+
+
+
+
+
   </script>
+
+
+
+
 </body>
 
 </html>
